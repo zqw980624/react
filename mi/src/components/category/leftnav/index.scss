@@ -1,0 +1,23 @@
+.nav{
+  margin-top: 1rem;
+  width: 1.58rem;
+  height: calc(100vh - 2.08rem);
+  border-right: .02rem solid #efefef;
+  overflow: scroll;
+  li{
+    width: 100%;
+    height: .9rem;
+    line-height: .9rem;
+    text-align: center;
+    font-size: .3rem;
+    transition-duration: .3s;
+  }
+  .active{
+    font-size: .4rem;
+    color: #fb7d34;
+    a{
+      color: #fb7d34;
+    }
+  }
+
+}

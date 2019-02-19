@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a3f5f48-245d-449d-ba9d-74bcdb4f49f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/BCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/BCD.LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/BCD.LOG1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/BCD.LOG2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/BOOTSTAT.DAT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/chs_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/cht_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/jpn_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/kor_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/malgun_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/malgunn_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/meiryo_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/meiryon_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/msjh_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/msjhn_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/msyh_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/msyhn_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/segmono_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/segoe_slboot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/segoen_slboot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Fonts/wgl4_boot.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Resources/bootres.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Resources/en-US/bootres.dll.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/Resources/zh-CN/bootres.dll.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/bg-BG/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/bg-BG/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/boot.stl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/bootmgfw.efi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/bootmgr.efi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/cs-CZ/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/cs-CZ/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/cs-CZ/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/da-DK/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/da-DK/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/da-DK/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/de-DE/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/de-DE/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/de-DE/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/el-GR/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/el-GR/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/el-GR/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/en-GB/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/en-GB/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/en-US/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/en-US/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/en-US/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/es-ES/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/es-ES/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/es-ES/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/es-MX/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/es-MX/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/et-EE/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/et-EE/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/fi-FI/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/fi-FI/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/fi-FI/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/fr-CA/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/fr-CA/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/fr-FR/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/fr-FR/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/fr-FR/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/hr-HR/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/hr-HR/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/hu-HU/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/hu-HU/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/hu-HU/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/it-IT/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/it-IT/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/it-IT/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ja-JP/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ja-JP/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ja-JP/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ko-KR/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ko-KR/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ko-KR/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/lt-LT/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/lt-LT/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/lv-LV/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/lv-LV/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/memtest.efi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/nb-NO/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/nb-NO/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/nb-NO/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/nl-NL/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/nl-NL/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/nl-NL/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/pl-PL/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/pl-PL/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/pl-PL/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/pt-BR/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/pt-BR/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/pt-BR/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/pt-PT/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/pt-PT/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/pt-PT/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/qps-ploc/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/qps-ploc/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/qps-ploc/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ro-RO/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ro-RO/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ru-RU/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ru-RU/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/ru-RU/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sk-SK/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sk-SK/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sl-SI/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sl-SI/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sr-Latn-CS/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sr-Latn-CS/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sr-Latn-CS/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sr-Latn-RS/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sr-Latn-RS/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sv-SE/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sv-SE/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/sv-SE/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/tr-TR/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/tr-TR/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/tr-TR/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/uk-UA/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/uk-UA/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/zh-CN/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/zh-CN/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/zh-CN/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/zh-HK/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/zh-HK/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/zh-HK/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/zh-TW/bootmgfw.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/zh-TW/bootmgr.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EFI/Microsoft/Boot/zh-TW/memtest.efi.mui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../~$demo.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../微信web开发者工具.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../百度网盘.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/category/content/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/category/content/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/category/content/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/category/content/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/category/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/category/leftnav/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/category/leftnav/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/banner/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/banner/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/header/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/header/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/m8/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/m8/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/recommed/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/recommed/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/shoplist/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/shoplist/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/my/head.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/my/head.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/my/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/my/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shopcart/calculate/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopcart/calculate/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shopcart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopcart/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shopcart/shoplist/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopcart/shoplist/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shopdetails/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopdetails/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shopdetails/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopdetails/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/cart.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/header/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-39">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/home/header/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/shopcart/shoplist/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1014">
+              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/year/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/year/shoplist/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/header/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/category/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="819">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/recommed/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/m8/index.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/home/m8/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/shopcart/shoplist/calculate/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/my/order.jsx" />
+        <option value="$PROJECT_DIR$/src/components/my/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/home/banner/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/home/category/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/shopcart/calculate/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/shopcart/shoplist/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/home/shoplist/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/login/index.scss" />
+        <option value="$PROJECT_DIR$/src/reducers/user.js" />
+        <option value="$PROJECT_DIR$/src/store/store.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/store/configstore.js" />
+        <option value="$PROJECT_DIR$/src/actions/cart.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/shopdetails/index.scss" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/util/carttools.js" />
+        <option value="$PROJECT_DIR$/src/components/shopcart/calculate/index.jsx" />
+        <option value="$PROJECT_DIR$/src/reducers/cart.js" />
+        <option value="$PROJECT_DIR$/src/components/footer/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/category/leftnav/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/category/content/index.jsx" />
+        <option value="$PROJECT_DIR$/src/util/reset.js" />
+        <option value="$PROJECT_DIR$/src/components/year/toppic/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/year/nav/index.scss" />
+        <option value="$PROJECT_DIR$/src/App.jsx" />
+        <option value="$PROJECT_DIR$/src/components/search/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/year/toppic/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/year/nav/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/year/shoplist/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/home/shoplist/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/shopdetails/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/shopcart/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/year/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/year/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/search/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/my/head.jsx" />
+        <option value="$PROJECT_DIR$/src/components/my/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/login/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/header/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/category/content/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/home/recommed/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/home/m8/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/home/header/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/home/banner/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/category/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/header/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/shopcart/shoplist/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/year/shoplist/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/home/header/index.jsx" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-30" />
+    <option name="y" value="15" />
+    <option name="width" value="1770" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="year" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="year" type="462c0819:PsiDirectoryNode" />
+              <item name="shoplist" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.9.3" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\admin\Desktop\mi-app\node_modules\eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\admin\Desktop\mi-app\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\mi-app\src\components\search" />
+      <recent name="C:\Users\admin\Desktop\mi-app\src\components\year\shoplist" />
+      <recent name="C:\Users\admin\Desktop\mi-app\src\components\year\nav" />
+      <recent name="C:\Users\admin\Desktop\mi-app\src\components\year\toppic" />
+      <recent name="C:\Users\admin\Desktop\mi-app\src\components\login" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a3f5f48-245d-449d-ba9d-74bcdb4f49f3" name="Default Changelist" comment="" />
+      <created>1547628003251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547628003251</updated>
+      <workItem from="1547628011989" duration="11751000" />
+      <workItem from="1547684943612" duration="7866000" />
+      <workItem from="1547695322716" duration="6591000" />
+      <workItem from="1547791276759" duration="14971000" />
+      <workItem from="1547864696325" duration="9849000" />
+      <workItem from="1547886341831" duration="13703000" />
+      <workItem from="1547943302816" duration="13326000" />
+      <workItem from="1547982280977" duration="9112000" />
+      <workItem from="1548041660067" duration="2725000" />
+      <workItem from="1548314835398" duration="7647000" />
+      <workItem from="1548353873287" duration="2604000" />
+      <workItem from="1548373989741" duration="11743000" />
+      <workItem from="1548415336502" duration="5296000" />
+      <workItem from="1548466078120" duration="1270000" />
+      <workItem from="1550560435618" duration="145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="118599000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-24" y="12" width="1416" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22681159" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.15384616" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/category/index.jsx</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2156">
+          <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shopdetails/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/configstore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shopcart/calculate/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shopcart/calculate/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/category/content/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16497">
+          <caret line="424" column="33" lean-forward="true" selection-start-line="424" selection-start-column="33" selection-end-line="424" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/category/leftnav/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/category/leftnav/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/reset.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/footer/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/carttools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/year/nav/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/year/nav/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/components/footer/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1443">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/year/toppic/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/year/toppic/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/year/nav/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/year/shoplist/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1677">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/shoplist/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/shoplist/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="992">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shopdetails/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/year/index.scss" />
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/category/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/my/head.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/my/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/category/content/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/header/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4875">
+          <caret line="125" column="30" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/banner/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/login/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shopcart/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shopcart/shoplist/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/year/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/category/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/recommed/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/m8/index.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/m8/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/year/shoplist/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/header/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

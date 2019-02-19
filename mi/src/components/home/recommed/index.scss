@@ -1,0 +1,31 @@
+.recommed{
+  width: 100%;
+  height: 5.24rem;
+
+  display: flex;
+  justify-content: space-between;
+  div{
+    width: 3.73rem;
+    height: 100%;
+
+  }
+  .r_left{
+    img{
+      width: 3.73rem;
+      height: 100%;
+    }
+  }
+  .r_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    div{
+      width: 100%;
+      height: 2.6rem;
+      img{
+        width: 100%;
+        height: 2.6rem;
+      }
+    }
+  }
+}

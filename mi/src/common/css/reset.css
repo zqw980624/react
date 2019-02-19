@@ -1,0 +1,21 @@
+html{
+  font-size: 13.333333vw;
+}
+body{
+  font-size: .22rem;
+}
+body,ul,li,p,a{
+  margin: 0;
+  padding:0;
+
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+.m20{
+  margin-top: .2rem ;
+}

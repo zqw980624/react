@@ -1,0 +1,45 @@
+.footer{
+  position: fixed;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  height: 1.08rem;
+
+  display: flex;
+  background-color: #fff;
+  a{
+    flex:1;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    i{
+      font-size:.45rem;
+    }
+    span{
+      font-size: .25rem;
+    }
+
+  }
+  .active{
+    color: #ff6700;
+  }
+  .shopcart{
+    
+    position: relative;
+    div{
+      position: absolute;
+      left:50%;
+      top:0;
+      width: .4rem;
+      height: .4rem;
+      background-color: red;
+      border-radius: 50% ;
+      color:#fff;
+      text-align: center;
+      line-height: .4rem;
+    }
+  }
+
+}
